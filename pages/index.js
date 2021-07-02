@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from '../components/Header';
 import Face from "../assets/face.png";
+import Intro from "../components/Intro";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
         <link rel="icon" href='../assets/face.png' />
       </Head>
       <Header />
+      <Intro />
+      About Me
     </div>
   )
 }

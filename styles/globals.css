@@ -6,6 +6,6 @@
 
 @layer base {
     body{
-        @apply bg-gradient-to-r from-indigo-50 to-indigo-200;
+        @apply bg-gradient-to-r from-pink-50 to-pink-200 text-blue-600;
     }
 }
