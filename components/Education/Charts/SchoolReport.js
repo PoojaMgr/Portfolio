@@ -1,6 +1,6 @@
 export default function SchoolReport() {
   return (
-    <div className="pt-12">
+    <div>
       <label className="dark:text-gray-100 text-blue-900 font-semibold mb-2">
         High School
       </label>

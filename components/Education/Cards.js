@@ -17,7 +17,7 @@ export default function Cards({detail, name, subject, logo}) {
                    {detail}
                    </p>
                 </blockquote>
-                <div className=" border-1 w-full mt-10 m-auto h-12">
+                <div className=" border-1 w-full mt-10 m-auto h-12 pt-12">
                     {name === 'Holy Cross High School' ? <SchoolReport/>: <GraduateReport/>}
                 </div>
                 <figcaption className="font-medium pt-40">

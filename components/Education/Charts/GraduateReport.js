@@ -1,44 +1,65 @@
 export default function GraduateReport() {
- const repeatBar = [
+  const repeatBar = [
     {
-      year: 1,
-      marks: "73%",
-      height: 24,
+      semester: 1,
+      marks: "69.1%",
+      height: 69,
     },
     {
-      year: 2,
-      marks: "63%",
-      height: 16,
+      semester: 2,
+      marks: "76%",
+      height: 76,
     },
     {
-      year: 3,
-      marks: "69%",
-      height: 20,
+      semester: 3,
+      marks: "67.1%",
+      height: 67,
     },
     {
-      year: 4,
-      marks: "74%",
-      height: 28,
+      semester: 4,
+      marks: "60%",
+      height: 60,
+    },
+    {
+      semester: 5,
+      marks: "67.3%",
+      height: 67,
+    },
+    {
+      semester: 6,
+      marks: "70%",
+      height: 70,
+    },
+    {
+      semester: 7,
+      marks: "70%",
+      height: 70,
+    },
+    {
+      semester: 8,
+      marks: "78%",
+      height: 78,
     },
   ];
   return (
     <>
       <div className="flex flex-col">
-        <div className="flex justify-evenly border-b-2 border-blue-900 dark:border-gray-100 items-end">
+        <div className="flex justify-between border-b-2 border-blue-900 dark:border-gray-100 items-end">
           {repeatBar.map((report) => {
+            const { year, marks, height } = report;
             return (
-              <div className="flex flex-col items-center" key={report.year}>
-                <p className="flex flex-col items-center">{report.year}</p>
-                <div className={`flex justify-center items-center h-${report.height} w-8 rounded-tl-md rounded-tr-md bg-blue-800 dark:darkBar`}>
+              <div className="flex flex-col items-center" key={year}>
+                <p className="flex flex-col items-center">{year}</p>
+                <div className={`flex justify-center items-center w-6 rounded-tl-md rounded-tr-md bg-blue-800 dark:darkBar`} style={{height: report.height}}>
                   <p className="transform -rotate-90 text-center text-gray-200 px-3">
-                    {report.marks}
+                    {marks}
                   </p>
                 </div>
               </div>
             );
           })}
         </div>
-        <p className="self-center pt-3 font-semibold text-gray-500">- Yearly Graph -</p>
+        <p className="self-center pt-3 font-semibold text-gray-500">- Semester Wise Graph -</p>
       </div>
     </>
   );

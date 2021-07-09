@@ -4,6 +4,7 @@ import Face from "../assets/face.png";
 import Intro from "../components/Introduction/Intro";
 import About from "../components/AboutMe/About";
 import Education from "../components/Education/Education";
+import Skills from "../components/Skills/Skills";
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       </div>
       <About />
       <Education />
+      <Skills />
     </>
   );
 }
