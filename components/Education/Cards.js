@@ -1,4 +1,9 @@
 import Image from "next/image";
+import dynamic from "next/dynamic.js";
+
+const SchoolReport = dynamic(() => import("./Charts/SchoolReport"), { ssr: false });
+const GraduateReport = dynamic(() => import("./Charts/GraduateReport"), { ssr: false });
+
 export default function Cards({detail, name, subject, logo}) {
     return (
         <figure className="bg-pink-200 rounded-xl p-8 md:m-6 lg:m-8 w-full mb-10 ml-0 mr-0 sm:w-2/3 sm:mb-6 md:w-2/3 lg:w-1/3 m-2 shadow-xl dark:bg-gray-800 dark:shadow-2xl { box-shadow: inset 0px -6px 34px hsl(0 0% 100% / 0.3), 38px 90% 0.5) !important; border-radius: 10px; margin-top: 80px } aos-init aos-animate">
@@ -13,9 +18,9 @@ export default function Cards({detail, name, subject, logo}) {
                    </p>
                 </blockquote>
                 <div className=" border-1 w-full mt-10 m-auto h-12">
-                    Chart
+                    {name === 'Holy Cross High School' ? <SchoolReport/>: <GraduateReport/>}
                 </div>
-                <figcaption className="font-medium">
+                <figcaption className="font-medium pt-40">
                     <div className="text-gray-500">{subject}</div>
                 </figcaption>
             </div>

@@ -3,15 +3,14 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-    body{
-        @apply text-blue-800 ;
-    }
+  body {
+    @apply text-blue-800;
+  }
 }
 
 @layer components {
-    .upperSection {
-        @apply bg-gradient-to-r from-pink-50 to-pink-200;
-    }
+  .upperSection {
+    @apply bg-gradient-to-r from-pink-50 to-pink-200;
+  }
 }
