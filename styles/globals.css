@@ -13,4 +13,11 @@
   .upperSection {
     @apply bg-gradient-to-r from-pink-50 to-pink-200;
   }
+  .tooltip {
+    @apply invisible absolute;
+  }
+  
+  .has-tooltip:hover .tooltip {
+    @apply visible z-50;
+  }
 }

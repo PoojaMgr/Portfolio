@@ -46,10 +46,10 @@ export default function GraduateReport() {
       <div className="flex flex-col">
         <div className="flex justify-between border-b-2 border-blue-900 dark:border-gray-100 items-end">
           {repeatBar.map((report) => {
-            const { year, marks, height } = report;
+            const { semester, marks } = report;
             return (
-              <div className="flex flex-col items-center" key={year}>
-                <p className="flex flex-col items-center">{year}</p>
+              <div className="flex flex-col items-center" key={semester}>
+                <p className="flex flex-col items-center">{semester}</p>
                 <div className={`flex justify-center items-center w-6 rounded-tl-md rounded-tr-md bg-blue-800 dark:darkBar`} style={{height: report.height}}>
                   <p className="transform -rotate-90 text-center text-gray-200 px-3">
                     {marks}
