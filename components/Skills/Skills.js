@@ -21,7 +21,7 @@ export default function Skills() {
           <p className="text-left pb-5 text-blue-900 text-5xl font-medium dark:text-gray-200">
             SKILLS
           </p>
-          <div className="flex flex-col border-none rounded-md w-full shadow-md border dark:border-gray-800 dark:shadow-2xl mt-10 p-5">
+          <div className="flex flex-col border-none rounded-md w-full shadow-md border dark:border-gray-800 mt-10 p-5">
             <div className="flex sm: h-60">
               <div className="flex space-x-4 h-20 w-full flex-wrap justify-start">
                 <TechnicalSkills logo={HTML} name="HTML" />
@@ -43,7 +43,7 @@ export default function Skills() {
           <div className="flex justify-center items-center flex-col sm:p-5 lg:p-0">
             <div className="flex flex-col p-12 w-full md:w-3/4 lg:w-11/12 h-full bg-gray-50 shadow-1xl rounded-lg">
               <p className="text-center pb-5 text-blue-900 text-5xl font-medium dark:text-gray-200">
-                Overall Experience
+                Works
               </p>
               <div className="flex flex-col justify-start items-start text-sm">
                 <ul className="list-outside list-disc">

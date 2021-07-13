@@ -5,6 +5,16 @@ module.exports = {
   theme: {
     extend: {},
   },
+  borderWidth: {
+    DEFAULT: 0,
+    0: '0',
+    2: '2px',
+    4: '4px'
+  },
+  fontFamily: {
+    sans: ['Graphik', 'sans-serif'],
+    serif: ['Merriweather', 'serif'],
+  },
   variants: {
     extend: {
       animation: ['group-hover'],
