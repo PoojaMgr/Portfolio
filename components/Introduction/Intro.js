@@ -22,7 +22,7 @@ export default function Intro() {
         </p>
         <div className="flex space-x-10 mb-10 mt-5">
         <IntroSocialItems Icons={faGithub} Path="https://github.com/PoojaMgr"  Color="text-gray-900" Size="fa-lg"/>
-        <IntroSocialItems Icons={faLinkedin} Path="" Color="text-blue-600" />
+        <IntroSocialItems Icons={faLinkedin} Path="https://www.linkedin.com/in/pooja-thapa-815359b1/" Color="text-blue-600" />
         <IntroSocialItems Icons={faInstagram} Path="" Color="text-pink-600"/>
         </div>
        
