@@ -23,7 +23,7 @@ export default function Skills() {
           </p>
           <div className="flex flex-col border-none rounded-md w-full shadow-md border dark:border-gray-800 mt-10">
             <div className="flex sm: h-60">
-              <div className="flex space-x-4 h-20 w-full flex-wrap justify-start">
+              <div className="flex lg:space-x-4 h-20 w-full flex-wrap justify-start">
                 <TechnicalSkills logo={HTML} name="HTML" />
                 <TechnicalSkills logo={JavaScript} name="Javascript" />
                 <TechnicalSkills logo={React} name="ReactJS" />

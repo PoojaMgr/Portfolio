@@ -8,7 +8,7 @@ export default function Education() {
         {" "}
         Education
       </h1>
-      <div className="flex pl-20 justify-center py-10 px-6 flex-col md:flex-row sm:items-center lg:px-10 mb-10">
+      <div className="flex justify-center py-10 px-6 flex-col md:flex-row sm:items-center lg:px-10 mb-10">
         <Cards detail=" Holy Cross High School is the private, catholic school in Nautanwa, Uttar Pradesh, India" name="Holy Cross High School" subject={`Physics, Chemistry, Math & Computer Science`} logo={School}/>
         <Cards detail="UPTU is a public collegiate university in Lucknow in the Indian state of Uttar Pradesh." name="Uttar Pradesh Technical University" subject="BTech. Software Engineering (IT)" logo={University}/>
       </div>
