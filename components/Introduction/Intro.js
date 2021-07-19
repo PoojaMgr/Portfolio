@@ -9,7 +9,7 @@ import Cover from "../../assets/Cover.png";
 
 export default function Intro() {
   return (
-    <div className="flex  relative h-screen w-full p-10 overflow-hidden shadow-lg">
+    <div className="flex  relative h-screen w-full p-10 overflow-hidden shadow-lg" id="intro">
       <div className="self-center z-10 mt-6 relative">
         <h6 className="font-sans md:text-2xl sm:text-xl mt-10 text-lg mb-3 text-gray-700 pointer-events-none dark:text-gray-300 opacity-80">
           {"Hey there, I'm "}

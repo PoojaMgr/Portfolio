@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Contact() {
   return (
-    <div className="w-full flex items-center justify-center sm:p-16 md:p-20 lg:pb-16 lg:pt-36 shadow-xl">
+    <div className="w-full flex items-center justify-center sm:p-16 md:p-20 lg:pb-16 lg:pt-36 shadow-xl" id="contact">
       <div className="flex flex-col md:flex-row items-center w-full justify-center">
         <div className="lg:p-40">
           <div className="p-20 shadow-xl rounded-full">

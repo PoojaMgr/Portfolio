@@ -14,7 +14,7 @@ import Content from "./Content";
 
 export default function Skills() {
   return (
-    <div className="flex flex-col pb-10 relative">
+    <div className="flex flex-col pb-10 relative" id="skills">
       <div className=" bg-gradient-to-r from-transparent to-pink-100 min-w-full absolute mt-24 sm:mt-36 h-full z-1 transform skew-y-12"></div>
       <div className="p-10 lg:-mt-4 flex flex-col lg:flex-row sm:pr-20 lg:p-10 lg:items-center">
         <div className="flex flex-col z-20 flexAdj mb-10 w-full lg:w-1/2 sm:ml-6 lg:ml-10">

@@ -3,7 +3,7 @@ import University from "../../assets/university.png";
 import School from "../../assets/school.png";
 export default function Education() {
   return (
-    <div className="p-5">
+    <div className="p-5" id="education">
       <h1 className="text-center pb-5 text-blue-900 text-5xl dark:text-gray-200 font-bold">
         {" "}
         Education
