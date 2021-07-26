@@ -1,28 +1,29 @@
 const express = require("express");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
-require('dotenv/config');
+require("dotenv/config");
 const app = express();
-const postRoutes = require('./routes/postResponse');
-var cors = require('cors')
+const postRoutes = require("./routes/postResponse");
+var cors = require("cors");
 
 //middleware
-app.use(cors());
 app.use(bodyParser.json());
+app.use(cors());
 app.use(postRoutes);
 
 app.get("/", (req, res) => {
-  console.log("Hey");
-  res.send("Hey I am in browser");
+  res.send("Hello to portfolio API");
 });
-
 //connect to DB
-mongoose.connect(
-  process.env.DB_CONNECTION,
-  { useNewUrlParser: true, useUnifiedTopology: true },
-  () => {
-    console.log("Connected to DB!!");
-  }
-);
 
-app.listen(4000);
+const PORT = process.env.PORT || 4000;
+
+mongoose
+  .connect(process.env.DB_CONNECTION, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  })
+  .then(() =>
+    app.listen(PORT, () => console.log(`Server running on port: ${PORT}`))
+  )
+  .catch((error) => console.log(error.message));
