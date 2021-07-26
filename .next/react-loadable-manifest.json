@@ -1,0 +1,20 @@
+{
+  "../components/Education/Cards.js -> ./Charts/GraduateReport": {
+    "id": "./components/Education/Charts/GraduateReport.js",
+    "files": [
+      "static/chunks/components_Education_Charts_GraduateReport_js.js"
+    ]
+  },
+  "../components/Education/Cards.js -> ./Charts/SchoolReport": {
+    "id": "./components/Education/Charts/SchoolReport.js",
+    "files": [
+      "static/chunks/components_Education_Charts_SchoolReport_js.js"
+    ]
+  },
+  "../node_modules/next/dist/client/next-dev.js -> ./dev/noop": {
+    "id": "./node_modules/next/dist/client/dev/noop.js",
+    "files": [
+      "static/chunks/node_modules_next_dist_client_dev_noop_js.js"
+    ]
+  }
+}
