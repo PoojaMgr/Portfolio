@@ -1,7 +1,6 @@
 const PostFeedBackSchema = require("../models/postFeedback");
 
 const postResponse = async (req, res) => {
-
   const postFeedback = new PostFeedBackSchema({
     firstName: req.body.firstName,
     lastName: req.body.lastName,

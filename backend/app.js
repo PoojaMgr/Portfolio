@@ -3,16 +3,18 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 require("dotenv/config");
 const app = express();
-const postRoutes = require("./routes/postResponse");
+const postFeedback = require("./routes/postResponse");
+const getFeedback = require("./routes/getResponse");
 var cors = require("cors");
 
 //middleware
 app.use(bodyParser.json());
 app.use(cors());
-app.use(postRoutes);
+app.use(postFeedback);
+app.use(getFeedback);
 
 app.get("/", (req, res) => {
-  res.send("Hello to portfolio API");
+  res.send("Hello to my portfolio API");
 });
 //connect to DB
 
