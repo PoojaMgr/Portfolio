@@ -37,10 +37,10 @@ export default function Footer() {
       </div>
       <div className="flex space-x-2 px-2 py-1 h-14 items-center font-medium text-blue-900 rounded-md transform hover:scale-105 cursor-pointer transition duration-200 border border-blue-900 hover:bg-blue-900 hover:text-gray-50">
         <FontAwesomeIcon icon={faDownload} height={20} width={20} />
-        <button type="button" onClick={download}>
-          Download Resume
+        <button>
+          <a href="/pooja-thapa.pdf" download>Download resume</a>
         </button>
-      </div>
+      </div> 
     </div>
   );
 }
