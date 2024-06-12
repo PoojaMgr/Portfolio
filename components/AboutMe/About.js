@@ -3,7 +3,7 @@ import WorkingWomen from "../../assets/Progress-overview.gif";
 
 export default function About() {
   return (
-    <div className="flex flex-row w-full relative dark:Dark1 pt-20 lg:pt-28 justify-center">
+    <div className="flex flex-row w-full relative dark:Dark1 pt-20 lg:pt-28 justify-center" id="profile">
       <div className="p-10 pt-8 flex flex-col-reverse md:flex-row sm:pr-20 lg:pl-52 lg:items-center">
         <Image src={WorkingWomen} alt="working" loading="lazy"/>
 
