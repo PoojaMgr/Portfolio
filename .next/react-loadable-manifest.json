@@ -1,0 +1,14 @@
+{
+  "../components/Education/Cards.js -> ./Charts/GraduateReport": {
+    "id": 355,
+    "files": [
+      "static/chunks/355.a61d46ecb4e1a6318a98.js"
+    ]
+  },
+  "../components/Education/Cards.js -> ./Charts/SchoolReport": {
+    "id": 4242,
+    "files": [
+      "static/chunks/242.2a60273bdc2195c9b843.js"
+    ]
+  }
+}
