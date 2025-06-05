@@ -6,6 +6,7 @@ import Education from "../components/Education/Education";
 import Skills from "../components/Skills/Skills";
 import Contact from "../components/Contacts/Contact";
 import Footer from "../components/Footer/Footer";
+import Tracker from "../components/Tracker/Tracker";
 
 export default function Home() {
   return (
@@ -14,13 +15,14 @@ export default function Home() {
         <Head>
           <title>Pooja Thapa</title>
           <meta name="Pooja Thapa portfolio" content="Created by Pooja" />
-          <link rel="icon" href="/face.ico"/>
+          <link rel="icon" href="/face.ico" />
         </Head>
         <Header />
         <Intro />
       </div>
       <About />
-      <Education />
+      <Tracker />
+      {/* <Education /> */}
       <Skills />
       <Contact />
       <Footer />

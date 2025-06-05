@@ -1,12 +1,13 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Next.js build output
+.next/
 
-# dependencies
-/node_modules
+# Dependency folders
+node_modules/
 
-
-# production
-/build
-
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # local env files
 .env.local
@@ -14,6 +15,16 @@
 .env.test.local
 .env.production.local
 
+# Output folders
+out/
+dist/
 
-#package-lock file
-.package-lock.json
+# Mac or IDE-specific
+.DS_Store
+.vscode/
+
+# production
+/build
+
+
+

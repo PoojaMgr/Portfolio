@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import Image from "next/image";
 import Wassup from "../../assets/wassup1.png";
@@ -18,17 +20,21 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    fetch("https://pooja-thapa.herokuapp.com/postsFeedback", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify(detail),
-    })
-      .then((response) => response.json())
+    fetch(
+      "https://script.google.com/macros/s/AKfycbzBlxuXxejSyjFzjCfDtHqAB6266wXJTi_jzwm90IrL-Xk9xX6S2lYgbuxd0zUeL7zZVA/exec",
+      {
+        method: "POST",
+        mode: "no-cors",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(detail),
+      }
+    )
       .then(() => {
-        alert("Your message sent succesfully!");
+        alert("Thanks! Message submitted.");
       })
+      .then((response) => response.json())
       .catch((error) => console.log(error));
     setDetail({
       firstName: "",
@@ -38,16 +44,17 @@ export default function Contact() {
     });
   };
   return (
-    <div
-      className="w-full flex items-center justify-center sm:p-16 md:p-20 lg:pb-16 lg:pt-36 shadow-xl"
-      id="contact"
-    >
+    <div className="" id="contact">
+      <p className="text-center pb-10 pt-40 text-blue-900 text-5xl font-medium dark:text-gray-200">
+        Get in Touch
+      </p>
       <div className="flex flex-col md:flex-row items-center w-full justify-center">
-        <div className="lg:p-40">
-          <div className="p-20 shadow-xl rounded-full">
+        {/* <div className="lg:p-20">
+          <div className="p-10 bg-transparent">
             <Image src={Wassup} alt="wassup" />
           </div>
-        </div>
+        </div> */}
+
         <form
           className="flex flex-col pl-4 pr-0 py-8 md:p-8 lg:pt-18 md:w-1/2"
           action=""

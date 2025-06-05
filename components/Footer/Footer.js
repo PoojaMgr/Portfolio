@@ -21,26 +21,30 @@ export default function Footer() {
     //     document.body.appendChild(link);
     //     link.click();
     //   })
-
   };
   return (
-    <div className="w-full flex flex-col space-y-5 sm:space-y-0 sm:flex-row justify-between items-center px-20 py-5 bg-blue-50">
-      <div>
-        <h1 className="flex justify-center sm:justify-start items-center text-blue-900 space-x-1">
-          <FontAwesomeIcon icon={faCode} height={20} width={20} />
+    <div
+      className="w-full flex flex-col space-y-5 sm:space-y-0 sm:flex-row justify-between items-center px-20 py-5 bg-black"
+      id="contact"
+    >
+      <div className="text-white">
+        <h1 className="flex justify-center sm:justify-start items-center space-x-1">
+          <FontAwesomeIcon icon={faCode} height={20} width={20} />{" "}
           <span> by Pooja Thapa</span>
         </h1>
-        <div className="flex space-x-2 items-center text-blue-900">
+        <div className="flex space-x-2 items-center">
           <FontAwesomeIcon icon={faEnvelope} height={20} width={20} />
           <p>poojathapa9815@gmail.com</p>
         </div>
       </div>
-      <div className="flex space-x-2 px-2 py-1 h-14 items-center font-medium text-blue-900 rounded-md transform hover:scale-105 cursor-pointer transition duration-200 border border-blue-900 hover:bg-blue-900 hover:text-gray-50">
+      <div className="flex space-x-2 px-2 py-1 h-14 items-center text-white font-medium rounded-md transform hover:scale-105 cursor-pointer transition duration-200 border border-white hover:bg-blue-900 hover:text-gray-50">
         <FontAwesomeIcon icon={faDownload} height={20} width={20} />
         <button>
-          <a href="/pooja-thapa.pdf" download>Download resume</a>
+          <a href="/pooja-thapa.pdf" download>
+            <p className="text-white">Download resume</p>
+          </a>
         </button>
-      </div> 
+      </div>
     </div>
   );
 }

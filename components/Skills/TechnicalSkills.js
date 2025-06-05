@@ -1,13 +1,9 @@
-import Image from "next/image";
-
-
-export default function TechnicalSkills({ logo, name}) {
-    return (
-        <div className={`rounded-full p-2 shadow-md mt-2 bg-pink-50 opacity-100 has-tooltip`}>
-            <span className='tooltip rounded shadow-lg p-1 bg-gray-100 text-gray-900 mt-8'>
-                {name}
-        </span>
-        <Image src={logo} height="50px" width="50px" alt="graphql" />
-      </div>
-    )
+export default function TechnicalSkills({ name, extraClass = "" }) {
+  return (
+    <span
+      className={`px-4 py-4 text-sm rounded-full bg-blue-100 text-blue-800 dark:bg-blue-800 dark:text-blue-100 font-medium shadow-md transform transition-all hover:scale-105 hover:rotate-1 ${extraClass}`}
+    >
+      {name}
+    </span>
+  );
 }

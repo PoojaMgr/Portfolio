@@ -1,23 +1,22 @@
-/* ./styles/globals.css */
+@import "tailwindcss";
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply text-blue-800;
-  }
+:root {
+  --background-light: #ffffff;
+  --text-light: #1a202c;
 }
 
-@layer components {
-  .upperSection {
-    @apply bg-gradient-to-r from-pink-50 to-pink-200;
+@layer base {
+  html {
+    font-size: 16px;
+    background-color: var(--background-light);
+    color: var(--text-light);
   }
-  .tooltip {
-    @apply invisible absolute;
-  }
-  
-  .has-tooltip:hover .tooltip {
-    @apply visible z-50;
+
+  body {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.05) 1px, transparent 1px);
+    background-size: 5px 5px;
   }
 }

@@ -9,25 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@babel/parser": "^7.14.7",
-    "@fortawesome/fontawesome-svg-core": "^1.2.35",
-    "@fortawesome/free-brands-svg-icons": "^5.15.3",
-    "@fortawesome/free-regular-svg-icons": "^5.15.3",
-    "@fortawesome/free-solid-svg-icons": "^5.15.3",
-    "@fortawesome/react-fontawesome": "^0.1.14",
-    "@heroicons/react": "^1.0.1",
+    "@babel/parser": "^7.27.5",
+    "@babel/runtime": "^7.27.4",
+    "@fortawesome/fontawesome-svg-core": "^6.7.2",
+    "@fortawesome/free-brands-svg-icons": "^6.7.2",
+    "@fortawesome/free-regular-svg-icons": "^6.7.2",
+    "@fortawesome/free-solid-svg-icons": "^6.7.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@heroicons/react": "^2.2.0",
     "babel-preset-next": "^1.4.0",
-    "next": "^11.1.4",
-    "react": "17.0.2",
-    "react-dom": "17.0.2",
-    "react-scroll": "^1.8.2"
+    "framer-motion": "^12.16.0",
+    "next": "^15.3.3",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scroll": "^1.9.3"
   },
   "devDependencies": {
-    "@babel/plugin-transform-modules-commonjs": "^7.14.5",
-    "autoprefixer": "^10.2.6",
-    "eslint": "7.29.0",
-    "eslint-config-next": "11.0.1",
-    "postcss": "^8.3.5",
-    "tailwindcss": "^2.2.19"
+    "@babel/plugin-transform-modules-commonjs": "^7.27.1",
+    "@tailwindcss/postcss": "^4.1.8",
+    "autoprefixer": "^10.4.21",
+    "eslint": "9.28.0",
+    "eslint-config-next": "15.3.3",
+    "postcss": "^8.5.4",
+    "tailwindcss": "^4.1.8"
   }
 }
