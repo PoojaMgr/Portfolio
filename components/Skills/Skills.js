@@ -65,7 +65,7 @@ export default function Skills() {
   return (
     <div
       id="skills"
-      className="min-h-5/6 flex justify-center pt-40 shadow-lg pb-40"
+      className="min-h-5/6 flex justify-center pt-20 shadow-lg pb-40"
     >
       <div className="relative w-full max-w-6xl">
         <p className="text-center pb-10 text-blue-900 text-5xl font-medium dark:text-gray-200">

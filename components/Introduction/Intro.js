@@ -4,8 +4,6 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 import IntroSocialItems from "./IntroSocialItems";
-import Image from "next/image";
-import Cover from "../../assets/Cover.png";
 
 export default function Intro() {
   return (

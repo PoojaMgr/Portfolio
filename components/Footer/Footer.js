@@ -5,23 +5,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer() {
-  const download = () => {
-    debugger;
-    // fetch("https://www.googleapis.com/drive/v2/files/", {
-    //   mode:"no-cors",
-    //   credentials: "same-origin"
-    // })
-    //   .then(response => response.blob())
-    //   .then(res => {
-    //     const url = window.URL
-    //     .createObjectURL(new Blob([res.data],  {type: 'application/pdf'}));
-    //     const link = document.createElement('a');
-    //     link.href = url;
-    //     link.setAttribute('download', 'resume.pdf');
-    //     document.body.appendChild(link);
-    //     link.click();
-    //   })
-  };
   return (
     <div
       className="w-full flex flex-col space-y-5 sm:space-y-0 sm:flex-row justify-between items-center px-20 py-5 bg-black"

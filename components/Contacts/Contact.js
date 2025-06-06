@@ -45,7 +45,7 @@ export default function Contact() {
   };
   return (
     <div className="" id="contact">
-      <p className="text-center pb-10 pt-40 text-blue-900 text-5xl font-medium dark:text-gray-200">
+      <p className="text-center pb-10 pt-20 text-blue-900 text-5xl font-medium dark:text-gray-200">
         Get in Touch
       </p>
       <div className="flex flex-col md:flex-row items-center w-full justify-center">
