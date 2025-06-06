@@ -56,7 +56,7 @@ export default function Contact() {
         </div> */}
 
         <form
-          className="flex flex-col pl-4 pr-0 py-8 md:p-8 lg:pt-18 md:w-1/2"
+          className="flex flex-col p-8 md:p-8 lg:pt-18 md:w-1/2"
           action=""
           onSubmit={handleSubmit}
         >
