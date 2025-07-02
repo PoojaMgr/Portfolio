@@ -32,7 +32,7 @@ const journey = [
     year: "2021",
     title: "Senior Software Engineer",
     description:
-      "Joined LTIMindtree, worked for the client - American Bureau of Shipping & American Express GBT",
+      "Joined LTIMindtree, where I contributed to projects for clients such as the American Bureau of Shipping and American Express Global Business Travel (GBT)",
     skills: [
       "ReactJS",
       "NextJS",
@@ -45,8 +45,8 @@ const journey = [
   {
     year: "2025",
     title: "Senior Frontend Role",
-    description: "Joined Infotechtion, working on product ARM development",
-    skills: ["ReactJS", "JavaScript", "TypeScript/JavaScript", "Redux"],
+    description: "Joined Infotechtion as part of the team developing the ARM product",
+    skills: ["ReactJS","TypeScript","Zustand","TanStack Query"],
   },
 ];
 
