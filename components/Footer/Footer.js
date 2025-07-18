@@ -15,19 +15,6 @@ export default function Footer() {
           <FontAwesomeIcon icon={faCode} height={20} width={20} />{" "}
           <span> by Pooja Thapa</span>
         </h1>
-      //   <div className="flex space-x-2 items-center">
-      //     <FontAwesomeIcon icon={faEnvelope} height={20} width={20} />
-      //     <p>poojathapa9815@gmail.com</p>
-      //   </div>
-      // </div>
-      // <div className="flex space-x-2 px-2 py-1 h-14 items-center text-white font-medium rounded-md transform hover:scale-105 cursor-pointer transition duration-200 border border-white hover:bg-blue-900 hover:text-gray-50">
-      //   <FontAwesomeIcon icon={faDownload} height={20} width={20} />
-      //   <button>
-      //     <a href="/pooja-thapa.pdf" download>
-      //       <p className="text-white">Download resume</p>
-      //     </a>
-      //   </button>
-      // </div>
     </div>
   );
 }
