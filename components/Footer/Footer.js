@@ -16,5 +16,6 @@ export default function Footer() {
           <span> by Pooja Thapa</span>
         </h1>
     </div>
+        </div>
   );
 }
